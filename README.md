@@ -35,7 +35,7 @@ void romanNumeralConvert(int num) {
     }
     else if(num>=18){
         cout << "XVIII";
-        romanNumeralConvert (num - 50);
+        romanNumeralConvert (num - 18);
     }
     else if(num>=17){
         cout << "XVII";
